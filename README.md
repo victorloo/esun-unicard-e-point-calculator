@@ -6,6 +6,12 @@
 
 ---
 
+## 程式碼風格
+
+- 所有 TypeScript / JavaScript 程式碼**必須加分號**（`;`）
+
+---
+
 ## 官方規則摘要
 
 > 資料來源：[玉山 Unicard 官方頁面](https://www.esunbank.com/zh-tw/personal/credit-card/intro/bank-card/unicard)（2026-03-17 存取）
