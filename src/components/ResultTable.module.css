@@ -1,0 +1,27 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 24px;
+}
+
+.table th,
+.table td {
+  padding: 8px 12px;
+  text-align: right;
+  border-bottom: 1px solid #eee;
+}
+
+.table th {
+  font-weight: bold;
+  border-bottom: 2px solid #ccc;
+}
+
+.table td:first-child,
+.table th:first-child {
+  text-align: left;
+}
+
+.recommended {
+  background-color: #f0f9f0;
+  font-weight: bold;
+}
