@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  gap: 4px;
+  margin-top: 16px;
+}
+
+.button {
+  padding: 6px 16px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.active {
+  background: #333;
+  color: white;
+  border-color: #333;
+}

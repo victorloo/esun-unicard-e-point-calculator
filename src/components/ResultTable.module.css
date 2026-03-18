@@ -25,3 +25,17 @@
   background-color: #f0f9f0;
   font-weight: bold;
 }
+
+.expandRow {
+  text-align: center !important;
+  padding: 4px;
+}
+
+.expandButton {
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  font-size: 0.9em;
+  text-decoration: underline;
+}
