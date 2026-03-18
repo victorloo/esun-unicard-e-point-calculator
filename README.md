@@ -1,5 +1,7 @@
 # 玉山 Unicard 最佳扣點計算機
 
+> **Demo：** [https://victorloo.github.io/esun-unicard-e-point-calculator/](https://victorloo.github.io/esun-unicard-e-point-calculator/)
+
 計算玉山 Unicard 在折抵紅利點數（e point）時，如何折抵才能讓回饋點數最大化。
 
 核心問題：回饋是**逐筆四捨五入**計算的，折抵帳單時要怎麼折，才不會因為四捨五入而損失點數？
