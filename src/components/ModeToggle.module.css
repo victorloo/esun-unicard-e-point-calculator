@@ -1,20 +1,33 @@
 .container {
   display: flex;
-  gap: 4px;
-  margin-top: 16px;
+  gap: 0;
+  margin-top: 20px;
 }
 
 .button {
-  padding: 6px 16px;
+  padding: 8px 20px;
   border: 1px solid #ccc;
   background: white;
   cursor: pointer;
-  border-radius: 4px;
   font-size: 0.9em;
+  color: #666;
+}
+
+.button:first-child {
+  border-radius: 6px 0 0 6px;
+}
+
+.button:last-child {
+  border-radius: 0 6px 6px 0;
+  border-left: none;
 }
 
 .active {
   background: #333;
   color: white;
   border-color: #333;
+}
+
+.active+.button {
+  border-left: none;
 }

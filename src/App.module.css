@@ -1,9 +1,27 @@
 .app {
   max-width: 600px;
   margin: 0 auto;
-  padding: 24px;
+  padding: 16px;
+  background: white;
+  min-height: 100vh;
 }
 
 .title {
-  margin-bottom: 24px;
+  font-size: 1.25em;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+@media (min-width: 480px) {
+  .app {
+    padding: 24px;
+    min-height: auto;
+    margin-top: 24px;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .title {
+    font-size: 1.5em;
+  }
 }
